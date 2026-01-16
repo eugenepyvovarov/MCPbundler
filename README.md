@@ -16,11 +16,15 @@ MCP Bundler is a macOS SwiftUI app for managing and running Model Context Protoc
 servers, with a headless stdio mode for CLI and automation workflows. The codebase targets
 the MCP lifecycle spec baseline dated 2025-06-18.
 
+
+
 ## Status
 
 I decided to move the project from Paid software to open source thanks to <a href="https://bags.fm/">Bags platform</a>
 I need some time to prepare the code for open sourcing it and for allowing to download builds straight from the site and remove license gate.
 Bear with me, I need some hours for this.
+
+Until then you can download app here: <a href="https://mcp-bundler.com/downloads/MCPBundler-latest.zip">TEMP DOWNLOAD LINK</a>
 
 ## Features
 
