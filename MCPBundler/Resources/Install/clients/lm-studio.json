@@ -1,0 +1,21 @@
+{
+  "id": "lm-studio",
+  "displayName": "LM Studio",
+  "category": "gui",
+  "primaryAction": {
+    "type": "deeplink",
+    "deeplinkUrl": "https://lmstudio.ai/install-mcp?name=mcp-bundler&config=eyJjb21tYW5kIjoiL0FwcGxpY2F0aW9ucy9NQ1BCdW5kbGVyLmFwcC9Db250ZW50cy9NYWNPUy9NQ1BCdW5kbGVyIiwiYXJncyI6WyItLXN0ZGlvLXNlcnZlciJdfQ%3D%3D",
+    "deeplinkLabel": "Install via LM Studio deeplink"
+  },
+  "configFiles": [
+    {
+      "path": "~/Library/Application Support/LM Studio/mcp.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "notes": [
+    "In LM Studio, open Program -> Install -> Edit mcp.json to add the server manually if the deeplink is unavailable."
+  ],
+  "docsUrl": "https://lmstudio.ai/docs/app/plugins/mcp"
+}

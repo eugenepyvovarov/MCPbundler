@@ -1,0 +1,12 @@
+{
+  "id": "default",
+  "displayName": "Generic STDIO Client",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "/Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "notes": [
+    "Use this command when adding MCP Bundler to clients that accept arbitrary stdio commands."
+  ]
+}

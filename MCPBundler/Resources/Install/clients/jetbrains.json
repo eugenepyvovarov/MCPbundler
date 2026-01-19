@@ -1,0 +1,17 @@
+{
+  "id": "jetbrains",
+  "displayName": "JetBrains AI Assistant",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "JetBrains -> Settings -> Tools -> MCP Server -> Add -> set the command and arguments -> Apply."
+  },
+  "configFiles": [
+    {
+      "path": "~/Library/Application Support/JetBrains/mcpServers.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://www.jetbrains.com/help/ai-assistant/mcp.html"
+}

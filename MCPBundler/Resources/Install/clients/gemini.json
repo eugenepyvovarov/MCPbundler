@@ -1,0 +1,17 @@
+{
+  "id": "gemini",
+  "displayName": "Gemini",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "gemini mcp add mcp-bundler -- /Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "configFiles": [
+    {
+      "path": "~/.gemini/settings.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html"
+}

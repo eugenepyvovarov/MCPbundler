@@ -40,8 +40,21 @@ Until then you can download app here: <a href="https://mcp-bundler.com/downloads
 
 ## Contributing
 
-PRs should describe changes, list tests run, and link relevant spec sections.
+PRs should describe changes, list tests run, and link relevant spec sections or issues.
+
+## Code of Conduct
+
+Be respectful and constructive. By participating, you agree to follow the GitHub Community Guidelines.
+
+## Security
+
+Please use GitHub Security Advisories for sensitive disclosures. Do not file public issues for security
+vulnerabilities.
+
+## Support
+
+Open a GitHub issue with clear steps to reproduce, logs, and screenshots where relevant.
 
 ## License
 
-License is not finalized yet.
+Apache-2.0. See LICENSE.

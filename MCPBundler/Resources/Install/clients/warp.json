@@ -1,0 +1,17 @@
+{
+  "id": "warp",
+  "displayName": "Warp Terminal",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Warp -> Settings -> AI -> Manage MCP servers -> + Add -> paste the configuration below."
+  },
+  "configFiles": [
+    {
+      "path": "~/.warp/settings.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"],\n      \"start_on_launch\": true\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://docs.warp.dev/knowledge-and-collaboration/mcp"
+}

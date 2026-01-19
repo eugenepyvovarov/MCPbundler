@@ -1,0 +1,17 @@
+{
+  "id": "zed",
+  "displayName": "Zed IDE",
+  "category": "json-config",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Add MCP Bundler to your Zed settings (user `~/.config/zed/settings.json` or project `settings.json`) and include the snippet below."
+  },
+  "configFiles": [
+    {
+      "path": "~/.config/zed/settings.json",
+      "format": "json",
+      "snippet": "{\n  \"context_servers\": {\n    \"mcp-bundler\": {\n      \"source\": \"custom\",\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"],\n      \"env\": {}\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://zed.dev/docs/ai/mcp.html#as-custom-servers"
+}

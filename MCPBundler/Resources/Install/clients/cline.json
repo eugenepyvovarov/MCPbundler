@@ -1,0 +1,17 @@
+{
+  "id": "cline",
+  "displayName": "Cline (VS Code)",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Cline -> MCP Servers panel -> Configure -> edit `cline_mcp_settings.json`, then add the snippet below."
+  },
+  "configFiles": [
+    {
+      "path": "~/Library/Application Support/Cline/cline_mcp_settings.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"],\n      \"alwaysAllow\": [],\n      \"disabled\": false\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://docs.cline.bot/mcp/configuring-mcp-servers"
+}

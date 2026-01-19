@@ -1,0 +1,19 @@
+{
+  "id": "neovim-mcphub",
+  "displayName": "Neovim (mcphub.nvim)",
+  "category": "json-config",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Update your MCP Hub server configuration at `~/.config/mcphub/servers.json`, then reload Neovim."
+  },
+  "configFiles": [
+    {
+      "path": "~/.config/mcphub/servers.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "notes": [
+    "Restart Neovim and run :MCPHub to confirm the server is active."
+  ]
+}

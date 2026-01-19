@@ -1,0 +1,12 @@
+build/
+dist/
+DerivedData/
+scripts/sparkle_ed25519_private_key.pem
+/vendors/
+*.profraw
+.DS_Store
+MCPBundler.xcodeproj/project.xcworkspace/xcuserdata/
+.skills-data/
+*.sublime-project
+*.sublime-workspace
+scripts/sparkle_ed25519_private_key.pem

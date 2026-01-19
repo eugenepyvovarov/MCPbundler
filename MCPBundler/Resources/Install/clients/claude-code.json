@@ -1,0 +1,27 @@
+{
+  "id": "claude-code",
+  "displayName": "Claude Code",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "claude mcp add --scope user --transport stdio mcp-bundler -- /Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "configFiles": [
+    {
+      "path": "~/.claude.json",
+      "format": "json",
+      "importFormat": {
+        "type": "json-pointer",
+        "serverPointer": "/mcpServers",
+        "aliasSource": "key",
+        "fieldMap": {
+          "type": "type",
+          "command": "command",
+          "args": "args",
+          "env": "env"
+        }
+      }
+    }
+  ],
+  "docsUrl": "https://docs.claude.com/en/docs/claude-code/mcp"
+}

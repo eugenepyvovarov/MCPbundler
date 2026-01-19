@@ -1,0 +1,10 @@
+{
+  "id": "augment-code",
+  "displayName": "Augment Code (Auggie)",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "auggie mcp add mcp-bundler -- /Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "docsUrl": "https://docs.augmentcode.com/setup-augment/mcp"
+}

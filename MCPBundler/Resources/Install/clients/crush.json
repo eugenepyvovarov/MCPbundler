@@ -1,0 +1,20 @@
+{
+  "id": "crush",
+  "displayName": "Crush CLI",
+  "category": "json-config",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Add MCP Bundler to your Crush configuration file (`~/.config/crush/crush.json` or a project override) and save the changes."
+  },
+  "configFiles": [
+    {
+      "path": "~/.config/crush/crush.json",
+      "format": "json",
+      "snippet": "{\n  \"$schema\": \"https://charm.land/crush.json\",\n  \"mcp\": {\n    \"mcp-bundler\": {\n      \"type\": \"stdio\",\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "notes": [
+    "Crush also respects project-level configurations; include the same block where appropriate."
+  ],
+  "docsUrl": "https://github.com/charmbracelet/crush#mcps"
+}

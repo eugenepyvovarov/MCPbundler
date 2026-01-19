@@ -1,0 +1,10 @@
+{
+  "id": "factory-droid",
+  "displayName": "Factory Droid",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "/mcp add mcp-bundler \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server\""
+  },
+  "docsUrl": "https://docs.factory.ai/cli/configuration/mcp"
+}

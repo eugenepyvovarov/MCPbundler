@@ -1,0 +1,13 @@
+{
+  "id": "5ire",
+  "displayName": "5ire Desktop",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "5ire Desktop -> Tools -> MCP Servers -> + -> Name `mcp-bundler` -> Command: `/Applications/MCPBundler.app/Contents/MacOS/MCPBundler` -> Arguments: `--stdio-server` -> enable it."
+  },
+  "notes": [
+    "Save the configuration and toggle the server on to activate it."
+  ],
+  "docsUrl": "https://5ire.app/docs"
+}

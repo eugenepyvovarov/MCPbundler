@@ -1,0 +1,10 @@
+{
+  "id": "block-goose",
+  "displayName": "Goose Desktop",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "1. Open Goose Desktop.\n2. Sidebar -> Extensions -> Add custom extension -> choose **Standard IO**.\n3. Command: `/Applications/MCPBundler.app/Contents/MacOS/MCPBundler`\n4. Arguments: `--stdio-server`"
+  },
+  "docsUrl": "https://block.github.io/goose/docs/tutorials/custom-extensions/"
+}

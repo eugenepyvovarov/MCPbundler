@@ -1,0 +1,30 @@
+{
+  "id": "cursor",
+  "displayName": "Cursor",
+  "category": "gui",
+  "primaryAction": {
+    "type": "deeplink",
+    "deeplinkUrl": "cursor://anysphere.cursor-deeplink/mcp/install?name=mcp-bundler&config=eyJlbnYiOnt9LCJjb21tYW5kIjoiL0FwcGxpY2F0aW9ucy9NQ1BCdW5kbGVyLmFwcC9Db250ZW50cy9NYWNPUy9NQ1BCdW5kbGVyIC0tc3RkaW8tc2VydmVyIn0%3D",
+    "deeplinkLabel": "Install in Cursor"
+  },
+  "configFiles": [
+    {
+      "path": "~/.cursor/mcp.json",
+      "format": "json",
+      "importFormat": {
+        "type": "json-pointer",
+        "serverPointer": "/mcpServers",
+        "aliasSource": "key",
+        "fieldMap": {
+          "command": "command",
+          "args": "args",
+          "env": "env"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Deeplink opens Cursor with a prefilled MCP Bundler configuration using the stdio transport."
+  ],
+  "docsUrl": "https://cursor.com/docs/context/mcp"
+}

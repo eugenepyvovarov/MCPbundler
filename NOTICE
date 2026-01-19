@@ -1,0 +1,29 @@
+MCP Bundler third-party notices
+
+This product includes software developed by third parties. The following
+components are distributed under their respective licenses.
+
+- AppAuth-iOS (Apache 2.0)
+  https://github.com/openid/AppAuth-iOS
+  Pinned: 2.0.0 (145104f5ea9d58ae21b60add007c33c1cc0c948e)
+
+- EventSource (MIT)
+  https://github.com/mattt/EventSource
+  Pinned: 1.3.0 (ca2a9d90cbe49e09b92f4b6ebd922c03ebea51d0)
+
+- Sparkle (MIT)
+  https://github.com/sparkle-project/Sparkle
+  Pinned: 2.8.0 (9a1d2a19d3595fcf8d9c447173f9a1687b3dcadb)
+
+- swift-log (Apache 2.0)
+  https://github.com/apple/swift-log
+  Pinned: 1.6.4 (ce592ae52f982c847a4efc0dd881cc9eb32d29f2)
+
+- swift-system (Apache 2.0)
+  https://github.com/apple/swift-system
+  Pinned: 1.6.3 (395a77f0aa927f0ff73941d7ac35f2b46d47c9db)
+
+- swift-sdk (MIT)
+  https://github.com/eugenepyvovarov/swift-sdk
+  Fork of https://github.com/modelcontextprotocol/swift-sdk
+  Pinned: feature/session-hint-exposure (3ab2d2b920daf254cebf88b23ed6c3971bee8c1f)

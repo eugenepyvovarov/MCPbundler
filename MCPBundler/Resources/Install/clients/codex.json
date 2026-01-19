@@ -1,0 +1,21 @@
+{
+  "id": "codex",
+  "displayName": "Codex",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "codex mcp add mcp-bundler -- /Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "configFiles": [
+    {
+      "path": "~/.codex/config.toml",
+      "format": "toml",
+      "snippet": "[mcp_servers.mcp-bundler]\ncommand = \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\"\nargs = [\"--stdio-server\"]",
+      "importFormat": {
+        "type": "toml-table",
+        "tablePrefix": "mcp_servers."
+      }
+    }
+  ],
+  "docsUrl": "https://developers.openai.com/codex/mcp/"
+}

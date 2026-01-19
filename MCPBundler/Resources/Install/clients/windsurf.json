@@ -1,0 +1,17 @@
+{
+  "id": "windsurf",
+  "displayName": "Windsurf",
+  "category": "json-config",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Edit your Windsurf MCP configuration at `~/.codeium/windsurf/mcp_config.json`, then paste the snippet below."
+  },
+  "configFiles": [
+    {
+      "path": "~/.codeium/windsurf/mcp_config.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://docs.windsurf.com/plugins/cascade/mcp#model-context-protocol-mcp"
+}

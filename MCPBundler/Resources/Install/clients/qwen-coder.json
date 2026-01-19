@@ -1,0 +1,17 @@
+{
+  "id": "qwen-coder",
+  "displayName": "Qwen Coder",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "qwen mcp add mcp-bundler -- /Applications/MCPBundler.app/Contents/MacOS/MCPBundler --stdio-server"
+  },
+  "configFiles": [
+    {
+      "path": "~/.qwen/settings.json",
+      "format": "json",
+      "snippet": "{\n  \"mcpServers\": {\n    \"mcp-bundler\": {\n      \"command\": \"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\",\n      \"args\": [\"--stdio-server\"]\n    }\n  }\n}"
+    }
+  ],
+  "docsUrl": "https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-interact-with-your-mcp-server"
+}

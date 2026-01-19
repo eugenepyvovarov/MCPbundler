@@ -1,0 +1,30 @@
+{
+  "id": "vscode",
+  "displayName": "VS Code",
+  "category": "cli",
+  "primaryAction": {
+    "type": "command",
+    "shellSnippet": "code --add-mcp \"{\\\"name\\\":\\\"mcp-bundler\\\",\\\"command\\\": \\\"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\\\",\\\"args\\\": [\\\"--stdio-server\\\"]}\""
+  },
+  "configFiles": [
+    {
+      "path": "~/Library/Application Support/Code/User/mcp.json",
+      "format": "json",
+      "importFormat": {
+        "type": "json-pointer",
+        "serverPointer": "/servers",
+        "aliasSource": "key",
+        "fieldMap": {
+          "type": "type",
+          "command": "command",
+          "args": "args",
+          "env": "env",
+          "envFile": "envFile",
+          "headers": "headers",
+          "url": "url"
+        }
+      }
+    }
+  ],
+  "docsUrl": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers"
+}

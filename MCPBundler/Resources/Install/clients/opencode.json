@@ -1,0 +1,20 @@
+{
+  "id": "opencode",
+  "displayName": "Opencode",
+  "category": "json-config",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Add MCP Bundler to your Opencode configuration (`~/.config/opencode/opencode.json` or the project-level file) and save."
+  },
+  "configFiles": [
+    {
+      "path": "~/.config/opencode/opencode.json",
+      "format": "json",
+      "snippet": "{\n  \"$schema\": \"https://opencode.ai/config.json\",\n  \"mcp\": {\n    \"mcp-bundler\": {\n      \"type\": \"local\",\n      \"command\": [\"/Applications/MCPBundler.app/Contents/MacOS/MCPBundler\", \"--stdio-server\"],\n      \"enabled\": true\n    }\n  }\n}"
+    }
+  ],
+  "notes": [
+    "You can also place the configuration in a project-level opencode.json file."
+  ],
+  "docsUrl": "https://opencode.ai/docs/mcp-servers/"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "jan",
+  "displayName": "Jan Desktop",
+  "category": "gui",
+  "primaryAction": {
+    "type": "gui",
+    "uxSnippet": "Jan Desktop -> Settings -> MCP Servers -> + -> Command: `/Applications/MCPBundler.app/Contents/MacOS/MCPBundler` -> Arguments: `--stdio-server` -> enable the server."
+  },
+  "configFiles": [
+    {
+      "path": "~/Library/Application Support/Jan/data/mcp_config.json",
+      "format": "json",
+      "importFormat": {
+        "type": "json-pointer",
+        "serverPointer": "/mcpServers",
+        "aliasSource": "key",
+        "fieldMap": {
+          "type": "type",
+          "command": "command",
+          "args": "args",
+          "env": "env",
+          "enabled": "active"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "After adding the server, toggle it on to enable MCP Bundler."
+  ],
+  "docsUrl": "https://jan.ai/docs/mcp"
+}
