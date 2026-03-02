@@ -1,15 +1,3 @@
-<p align="center">
-  Official $AISKILLS Links:
-  <a href="https://bags.fm/2D2r9bmrR813VfXw6nEjuzoWboD9k3ior53zybasBAGS">Bags.fm</a> •
-  <a href="https://jup.ag/tokens/2D2r9bmrR813VfXw6nEjuzoWboD9k3ior53zybasBAGS">Jupiter</a> •
-  <a href="https://photon-sol.tinyastro.io/en/lp/BmJ7FrwjmHfLxrZ8KFb22TLbWvCZxzMLymGrLGpLWzcy">Photon</a> •
-  <a href="https://dexscreener.com/solana/2D2r9bmrR813VfXw6nEjuzoWboD9k3ior53zybasBAGS">DEXScreener</a>
-</p>
-
-<p align="center">
-  Official CA: 2D2r9bmrR813VfXw6nEjuzoWboD9k3ior53zybasBAGS (on Solana)
-</p>
-
 <h1 align="center">MCP Bundler (macOS)</h1>
 
 MCP Bundler is a macOS SwiftUI app for managing and running Agent Skills and Model Context Protocol (MCP)
